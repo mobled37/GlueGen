@@ -156,6 +156,10 @@ cd ./multilingual-gluenet
 CUDA_VISIBLE_DEVICES=0 python train_gluenet_multi.py --DATA_PATH_SRC ../data/WikiMatrix.en-zh.txt.en --DATA_PATH_TAR ../data/WikiMatrix.en-zh.txt.zh --DATA_PATH_SRC_1 ../data/laion-1M-trans-en-zh-cn-en.txt --DATA_PATH_TAR_1 ../data/laion-1M-trans-en-zh-cn-zh-cn.txt --tarLanguage Chinese
 ```
 
+### kylee implementation
+UrbanSound8k dataset location: /data/dataset/UrbanSound8k
+multilingual dataset location: /data/dataset/multilingual_text_dataset
+
 ## Citation
 If you find this project useful for your research, please kindly cite our paper:
 
